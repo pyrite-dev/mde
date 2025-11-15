@@ -1,0 +1,9 @@
+[submodule "mdebase"]
+	path = mdebase
+	url = ../mdebase
+[submodule "mdelibs"]
+	path = mdelibs
+	url = ../mdelibs
+[submodule "external/milsko"]
+	path = external/milsko
+	url = https://github.com/pyrite-dev/milsko
