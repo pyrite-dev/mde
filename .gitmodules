@@ -14,3 +14,6 @@
 	path = mdeutils
 	url = ../mdeutils
 	update = rebase
+[submodule "mdecmake"]
+	path = mdecmake
+	url = ../mdecmake
