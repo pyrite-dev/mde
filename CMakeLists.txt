@@ -3,7 +3,7 @@ project(
 	mde
 )
 
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/mdecmake)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/mdecmake/cmake)
 
 include(CheckIncludeFiles)
 
@@ -18,6 +18,7 @@ add_subdirectory(external/milsko)
 
 include_directories(external)
 
+add_subdirectory(mdecmake)
 add_subdirectory(mdelibs)
 add_subdirectory(mdebase)
 add_subdirectory(mdeutils)
