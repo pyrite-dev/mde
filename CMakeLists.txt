@@ -3,14 +3,7 @@ project(
 	mde
 )
 
-file(
-	GLOB
-	CMAKE_SRC
-	mdecmake/*.cmake
-)
-foreach(SRC IN LISTS CMAKE_SRC)
-	include(${SRC})
-endforeach()
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/mdecmake)
 
 configure_file(include/config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
