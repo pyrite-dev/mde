@@ -17,6 +17,8 @@
 [submodule "mdecmake"]
 	path = mdecmake
 	url = ../mdecmake
+	update = rebase
 [submodule "mdeartworks"]
 	path = mdeartworks
 	url = ../mdeartworks
+	update = rebase
