@@ -4,6 +4,10 @@
 #define PREFIX "@CMAKE_INSTALL_PREFIX@"
 #define CONFDIR "@CMAKE_INSTALL_FULL_SYSCONFDIR@"
 #define DATADIR "@CMAKE_INSTALL_FULL_DATAROOTDIR@"
+#define ICON128DIR DATADIR "/mde/icons/128x128"
+#define ICON64DIR DATADIR "/mde/icons/64x64"
+#define ICON32DIR DATADIR "/mde/icons/32x32"
+#define ICON16DIR DATADIR "/mde/icons/16x16"
 
 #cmakedefine HAS_PATHS_H
 
