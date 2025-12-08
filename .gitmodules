@@ -1,6 +1,6 @@
 [submodule "external/milsko"]
 	path = external/milsko
-	url = ../../pyrite-dev/milsko
+	url = ../milsko
 	update = rebase
 [submodule "mdebase"]
 	path = mdebase
